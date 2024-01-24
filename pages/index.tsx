@@ -10,7 +10,7 @@ import TestimonialList from 'components/organisms/TestimonialList'
 import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
-import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
+import { FiGlobe, FiCode, FiTablet } from 'react-icons/fi'
 const Home = () => {
   return (
     <>
@@ -23,12 +23,12 @@ const Home = () => {
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
               title="Digitalize Your Business With Levago."
-              description="We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work."
+              description="We focus on designing and developing websites, applications, and digitizing information systems. With a commitment to innovation and quality, Levago is ready to create the best IT solutions to meet your business needs."
               badge="LEVAGO INDONESIA"
             />
           </div>
           <div className="flex flex-col gap-6 sm:flex-row w-full sm:w-fit">
-            <ButtonLink value="Send Quote" href="/quote" />
+            <ButtonLink value="Send Idea" href="/quote" />
             <ButtonLink
               value="Learn More"
               color="white"
@@ -41,23 +41,23 @@ const Home = () => {
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
           <div data-aos="fade-up">
             <FeatureCard
-              title="Design"
-              description="The project interface will be designed first, our favorite tool is Figma."
-              icon={<FiFigma />}
+              title="Website Design"
+              description="Levago Memberikan Kebutuhan Website Landing Page, Desain, Domain, Hosting, Pengoperasian Dan Maintance"
+              icon={<FiGlobe />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
-              title="Develop"
-              description="Transform design and write business logic here. Choose the technology you want."
+              title="Website App"
+              description="Levago Memberikan Solusi Untuk Mempermudah Pekerjaan Dengan Sistem Informasi Yang Dirancang Sesuai Kebutuhan"
               icon={<FiCode />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
-              title="Ship"
-              description="After the work is complete, we will send the project and all its assets to you."
-              icon={<FiBox />}
+              title="Mobile App"
+              description="Levago Mampu Merancang Aplikasi Sesuai Keinginan Anda Yang Dapat Diakses Kapan Saja Melalui Berbagai Device"
+              icon={<FiTablet />}
             />
           </div>
         </section>
