@@ -23,7 +23,7 @@ const Home = () => {
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
               title="Digitalize Your Business With Levago."
-              description="We focus on designing and developing websites, applications, and digitizing information systems. With a commitment to innovation and quality, Levago is ready to create the best IT solutions to meet your business needs."
+              description="Levago berfokus pada perancangan dan pengembangan  web, aplikasi, serta mendigitalkan sistem informasi. Dengan komitmen terhadap inovasi dan kualitas, Levago siap menciptakan solusi IT terbaik untuk memenuhi kebutuhan bisnis Anda."
               badge="LEVAGO INDONESIA"
             />
           </div>
