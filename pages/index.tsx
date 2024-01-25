@@ -78,9 +78,9 @@ const Home = () => {
             data-aos="fade-left"
           >
             <SectionSentence
-              title="Everything is well planned, well designed and developed wholeheartedly"
-              paragraph="Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped."
-              badge="HOW WE WORK"
+              title="Semuanya terencana dengan baik, dirancang dengan baik dan dikembangkan dengan sepenuh hati"
+              paragraph="Perencanaan yang matang membuat kami percaya diri, dikembangkan dengan praktik terbaik sehingga proyek dapat dipertahankan. Kami selalu menguji proyek sebelum dikirim."
+              badge="Cara Kerja Kami"
             />
           </aside>
         </section>
@@ -89,12 +89,12 @@ const Home = () => {
           <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
-                title="We're a team of designers, engineers and analysts"
-                paragraph="Our team consists of many creative people. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
-                badge="OUR TEAM"
+                title="Kami adalah seorang yang ahli untuk mendigitalisasikan produk anda."
+                paragraph="Tim kami terdiri dari banyak orang kreatif. Kami berkomitmen untuk menjaga kualitas kerja dan kecepatan. Orang-orang kreatif ini bekerja sama untuk menciptakan hasil kerja yang maksimal."
+                badge="Tim Kami"
               />
               <ButtonLink
-                value="See Our Teams"
+                value="Lihat Tim Kami"
                 href="/teams"
                 size="small"
                 color="white"
@@ -122,8 +122,8 @@ const Home = () => {
             data-aos="zoom-in-up"
           >
             <SectionSentence
-              title="We have completed many amazing projects that you will not believe"
-              badge="PROJECTS"
+              title="Kami telah menyelesaikan banyak proyek luar biasa yang tidak akan Anda percayai"
+              badge="PROJECT"
             />
           </div>
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5">
@@ -192,7 +192,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/* Testimonial */}
+        {/* Testimonial 
         <section className="flex flex-col gap-16 items-center">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
             <SectionSentence
@@ -203,7 +203,7 @@ const Home = () => {
           <div className="w-full" data-aos="fade-up">
             <TestimonialList />
           </div>
-        </section>
+        </section>*/}
       </PageTemplate>
     </>
   )
