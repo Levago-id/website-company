@@ -9,11 +9,11 @@ const CallOut = () => {
       <LineDivider />
       <section className="grid grid-cols-1 gap-8 place-items-center m-0 py-12 lg:grid-cols-2">
         <div className="text-center sm:w-8/12 md:w-10/12 lg:w-full lg:text-left">
-          <SectionSentence title="We've prepared everything, it's time for you to tell the problem" />
+          <SectionSentence title="Mari berkolaborasi bersama kami, kirimkan ide dan masukan anda" />
         </div>
         <div className="flex flex-col gap-5 w-full sm:w-fit sm:flex-row lg:w-full lg:justify-end">
-          <ButtonLink value="Send Quote" href="/quote" />
-          <ButtonLink value="Ask Us" color="white" style="light" href="/faq" />
+          <ButtonLink value="Hubungi" href="https://api.whatsapp.com/send?phone=6285861126558&text=*Hi%20Levago!*%20*Saya*%20*Mau%20Konsultasi%F0%9F%98%8A*%0A%20(Message%20from%20Website)" />
+          <ButtonLink value="Tanya Kami" color="white" style="light" href="/faq" />
         </div>
       </section>
       <LineDivider />
