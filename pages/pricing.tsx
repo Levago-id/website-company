@@ -57,7 +57,7 @@ const Pricing = () => {
         <div data-aos="fade-up">
           <PricingCard
             price="1200$"
-            title="UI Design"
+            title="Website Design"
             features={[
               '10 design pages',
               'Well-documented',
@@ -68,8 +68,8 @@ const Pricing = () => {
         </div>
         <div data-aos="fade-up">
           <PricingCard
-            price="5000$"
-            title="Development"
+            price="10000"
+            title="Website Application"
             features={[
               'Web & Mobile',
               'Well-documented',
@@ -81,7 +81,7 @@ const Pricing = () => {
         <div data-aos="fade-up">
           <PricingCard
             price="3000$"
-            title="Maintenance"
+            title="Mobile App"
             features={[
               'Daily backup',
               '3 hours of maintenance',
