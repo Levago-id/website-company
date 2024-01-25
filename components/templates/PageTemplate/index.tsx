@@ -7,14 +7,14 @@ import Head from 'next/head'
 import useGetBrowserName from 'hooks/useGetBrowserName'
 
 interface PageTemplateProps {
-  children: ReactNode[] | JSX.Element
-  title?: string
+  children: ReactNode[] | JSX.Element;
+  title?: string;
 }
 
 const PageTemplate = ({ children, title = 'Collosal' }: PageTemplateProps) => {
-  const browserName = useGetBrowserName()
+  const browserName = useGetBrowserName();
 
-  const commonContainerStyles = {
+  const commonContainerStyles: React.CSSProperties = {
     minHeight: '100vh',
     position: 'relative',
   };
@@ -38,7 +38,7 @@ const PageTemplate = ({ children, title = 'Collosal' }: PageTemplateProps) => {
             >
               <div className="h-[105px]"></div>
               {/* Padding */}
-              <Container style={commonContainerStyles}>
+              <Container>
                 {children}
                 <div data-aos="fade-right">
                   <CallOut />

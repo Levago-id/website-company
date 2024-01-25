@@ -149,44 +149,47 @@ const Home = () => {
             data-aos="zoom-in-up"
           >
             <SectionSentence
-              title="What do you need? Choose a service that can help you"
-              badge="GET STARTED"
+              title="Apa yang kamu butuhkan? Pilih layanan yang dapat membantu Anda"
+              badge="Layanan Kami"
             />
           </div>
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
             <div data-aos="fade-up-right">
               <PricingCard
-                price="1200$"
-                title="UI Design"
+                price="85K/Bulan"
+                title="Website"
                 features={[
-                  '10 design pages',
-                  'Well-documented',
-                  '4 revisions',
-                  '$100/additional page',
+                  'Server dan Domain',
+                  'Maintance selama 1 tahun',
+                  'Tambah Fitur Minor',
+                  'Responsive Mobile',
+                  'Additional Email',
                 ]}
               />
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <PricingCard
-                price="5000$"
-                title="Development"
+                price="Request"
+                title="Website Application"
                 features={[
-                  'Web & Mobile',
-                  'Well-documented',
-                  '8 revisions',
-                  '$1000/additional page',
+                  'Server dan Domain',
+                  'Garansi bug & Maintance',
+                  'Garansi Design & Keamanan',
+                  'Backup Database',
+                  'Major Feature : Request '
                 ]}
               />
             </div>
             <div data-aos="fade-up-left">
               <PricingCard
-                price="3000$"
-                title="Maintenance"
+                price="Request"
+                title="Mobile Application"
                 features={[
-                  'Daily backup',
-                  '3 hours of maintenance',
-                  'Including fixing',
-                  '$50/additional hour',
+                  'Deploy Appstore & Playstore',
+                  'Garansi bug & Maintance',
+                  'Garansi Design & Keamanan',
+                  'Backup Database',
+                  'Major Feature : Request '
                 ]}
               />
             </div>
