@@ -51,46 +51,46 @@ const ServiceDetail = () => {
   ]
   const features: FeatureCardProps[] = [
     {
-      title: 'Design Files',
+      title: 'UI UX Design',
       description:
-        'Projects are well designed using Figma. You will get the design file.',
+        'Proyek dirancang dengan baik. Anda akan mendapatkan file desain.',
       icon: <FiFigma />,
     },
     {
-      title: 'Same Day',
-      description: `We don't want you to wait long. Everything will be finished on the same day.`,
+      title: 'Durasi Pengerjaan',
+      description: `Kami tidak ingin Anda menunggu lama. Semuanya akan selesai pada hari yang sama.`,
       icon: <FiClock />,
     },
     {
       title: 'Quality Code',
-      description: `Code written according to good practice is highly maintainable.`,
+      description: `Kode yang ditulis berdasarkan praktik yang baik sangat mudah dipelihara.`,
       icon: <FiCode />,
     },
     {
       title: 'SEO',
       description:
-        'The website will appear on the first page of the search engine.',
+        'Website akan muncul di halaman pertama mesin pencari.',
       icon: <FiTrendingUp />,
     },
     {
       title: 'Responsive Design',
-      description: `Access the website on any device, don't limit your visitors.`,
+      description: `Akses website di perangkat apa pun, jangan batasi pengunjung Anda.`,
       icon: <FiLayout />,
     },
     {
-      title: 'Blazing Fast',
+      title: 'Website Cepat',
       description:
-        'A high speed website will not disappoint prospective customers.',
+        'Website berkecepatan tinggi tidak akan mengecewakan calon pelanggan.',
       icon: <FiZap />,
     },
   ]
   return (
-    <PageTemplate title="Service Detail - Collosal">
+    <PageTemplate title="Service Detail - Levago">
       <section className="grid place-items-center">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
-            badge="DEVELOPMENT"
-            title="Solve your company's repetitive problems by designing apps"
+            badge="LEVAGO"
+            title="Selesaikan di perusahaan Anda dengan solusi digital"
           />
         </div>
       </section>
@@ -110,15 +110,14 @@ const ServiceDetail = () => {
           <div className="sm:w-10/12 md:w-8/12 lg:w-full lg:text-left grid gap-10">
             <div className="grid gap-8">
               <Text
-                value={`Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution. <br> <br> We can build you a website, a mobile app and a desktop app. All types of applications have a good security system, are easy to maintain, and are high speed. `}
+                value={`Cukup beritahu kami masalah perusahaan anda saat ini, dan kami akan menciptakan solusi digital. <br> <br> Kami dapat membuatkan Anda website, mobile application, dan website applicatiion. Semua jenis aplikasi memiliki sistem keamanan yang baik, mudah perawatannya, dan berkecepatan tinggi. `}
                 textStyle={'SectionParagraph'}
               />
             </div>
             <ul className="list-square text-white text-base font-medium pl-5 grid gap-2.5">
-              <li>Avoid potential bugs with unit testing</li>
-              <li>Removing unused code will speed up the application</li>
-              <li>The modern design pleases the users</li>
-              <li>A good UX will not disappoint users</li>
+              <li>Terhindar potensi bug dengan unit testing</li>
+              <li>Desain modern dan menyenangkan user</li>
+              <li>User Experience yang tidak mengecewakan</li>
             </ul>
           </div>
           <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full"></div>
@@ -127,8 +126,7 @@ const ServiceDetail = () => {
       <section className="grid place-items-center gap-16">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
-            badge=" FEATURES"
-            title="Here's what you will get when purchasing this service"
+            title="Apa yang anda dapatkan saat bekerja sama dengan Levago"
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -150,7 +148,7 @@ const ServiceDetail = () => {
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="FAQ"
-            title="Frequently asked questions, maybe the same as yours"
+            title="Frequently asked questions"
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-7">
@@ -167,7 +165,7 @@ const ServiceDetail = () => {
           {`Didn't find an answer? `}
           <div className="sm:hidden"></div>
           <div className="text-primary inline">
-            <Link href={'/quote'}>Do not hesitate to ask!</Link>
+            <Link href={'/quote'}>Jangan ragu untuk bertanya!</Link>
           </div>
         </div>
       </section>
