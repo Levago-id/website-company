@@ -25,8 +25,8 @@ const Services = () => {
         <section className="grid place-items-center" data-aos="zoom-in-up">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12">
             <PageSentence
-              badge="SERVICES"
-              title="We are here to help solve your company's problems"
+              badge="LAYANAN"
+              title="Hadir untuk membantu menyelesaikan permasalahan perusahaan Anda"
             />
           </div>
         </section>
@@ -38,32 +38,32 @@ const Services = () => {
                 src={'/images/ui-design-illustration.svg'}
                 layout="fill"
                 objectFit="fill"
-                alt='UI Design'
+                alt='Website Design'
               />
             </figure>
           </aside>
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="UI DESIGN"
-                title="Don't let your idea get caught by others, design a prototype for your idea"
-                paragraph="Delegate your ideas as quickly as possible, create beautiful designs and vivid prototypes."
+                badge="Website Design"
+                title="Landing Page, Company Website, Website Profile"
+                paragraph="Levago Memberikan Kebutuhan Website Landing Page, Desain, Domain, Hosting, Pengoperasian Dan Maintance"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <SmallCardIcon
-                  title="Beautiful Design"
-                  description="Create a modern design for your idea."
+                  title="Website Template"
+                  description="Dapatkan website anda yang terbaik dan termurah."
                   icon={<FiLayout />}
                 />
                 <SmallCardIcon
-                  title="Prototype"
-                  description="Create vivid prototypes for your designs."
+                  title="Website Custom"
+                  description="Levago dapat mewujudkan website idaman yang anda harapkan."
                   icon={<FiLayout />}
                 />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="Selengkapnya" href="/service/detail" />
             </div>
           </aside>
         </section>
@@ -71,24 +71,20 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-right">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="DEVELOPMENT"
-                title="Create solutions to repetitive problems, design applications and access anywhere!"
-                paragraph="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
+                badge="Application"
+                title="Website Application, Mobile Application"
+                paragraph="Levago Memberikan solusi untuk memepermudah pekerjaan dengan Sistem Website dan Merancang Aplikasi Sesuai Keinginan Anda Yang Dapat Diakses Kapan Saja Melalui Berbagai Device"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 gap-5">
                 <CardListIcon
                   icon={<FiSmartphone />}
-                  title="Mobile App Development"
+                  title="Mobile Application"
                 />
-                <CardListIcon
-                  icon={<FiMonitor />}
-                  title="Desktop App Development"
-                />
-                <CardListIcon icon={<FiGlobe />} title="Web Development" />
+                <CardListIcon icon={<FiGlobe />} title="Website Application" />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="Selengkapnya" href="/service/detail" />
             </div>
           </aside>
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-left">
@@ -106,29 +102,25 @@ const Services = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
             <figure className="w-full h-[545px] relative">
               <Image
-                src={'/images/maintenance-illustration.svg'}
+                src={'/images/digital-marketing.svg'}
                 layout="fill"
                 objectFit="fill"
-                alt='server maintenance'
+                alt='digital marketing'
               />
             </figure>
           </aside>
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="MAINTENANCE"
-                title="Think of your server as your own child, taking care of it every day"
-                paragraph="We will back up your servers every day, clean them every week, upgrade them when there is an update."
+                badge="Digital Marketing"
+                title="Tingkatkan online presence & brand awareness melalui social media."
+                paragraph="Levago tak hanya memberikan solusi secara teknologi, namun juga memberikan solusi melalui pemasaran digital"
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
-              <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-                <IconListItem icon={<FiDownload />} value='Back up every day' />
-                <IconListItem icon={<FiArrowUp />} value='Upgrade' />
-                <IconListItem icon={<FiRefreshCcw />} value='Cleaning every week' />
-                <IconListItem icon={<FiCheckCircle />} value='Fixing Error' />
+              <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">  
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="Selengkapnya" href="/service/detail" />
             </div>
           </aside>
         </section>
