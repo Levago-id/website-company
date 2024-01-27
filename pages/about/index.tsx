@@ -10,7 +10,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <PageTemplate title="About - Collosal">
+    <PageTemplate title="About - Levago">
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
@@ -29,14 +29,14 @@ const About = () => {
           data-aos="fade-up-left"
         >
           <PageSentence
-            badge="ABOUT"
-            title="We are creative, smart and hardworking people"
-            description={`Several creative people gather in the same place - that's Collosal. We collaborate to produce the best results, loved by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields.`}
+            badge="TENTANG KAMI"
+            title="Digitalize Your Business!"
+            description={`Levago adalah perusahaan penyedia layanan IT terpercaya yang mengkhususkan diri dalam pengembangan teknologi informasi. Kami fokus pada perancangan dan pengembangan website, aplikasi, serta digitalisasi sistem informasi. Dengan komitmen kepada inovasi dan kualitas, Levago siap mewujudkan solusi IT terbaik untuk memenuhi kebutuhan bisnis Anda.`}
           />
         </aside>
       </section>
       <LineDivider />
-      <section className="grid place-items-center gap-16">
+      {/*<section className="grid place-items-center gap-16">
         <div
           className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
           data-aos="zoom-in-up"
@@ -52,7 +52,7 @@ const About = () => {
           </div>
           <LogoList />
         </div>
-      </section>
+  </section>*/}
       <section className="grid place-items-center gap-16">
         <div
           className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
@@ -66,44 +66,44 @@ const About = () => {
         <div className="w-full grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-1.webp"
-              job="Founder"
-              name="Albert Flores"
+              imageSrc="/images/honey.jpg"
+              job="Chief Executive Officer"
+              name="Honey Nathania Marsela"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-2.webp"
+              imageSrc="/images/rekel.jpeg"
               job="Chief Technology Officer"
-              name="Devon Lane"
+              name="George Miracle Theophylus"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-3.webp"
-              job="UI Designer"
-              name="Darrell Steward"
+              imageSrc="/images/juna.jpeg"
+              job="Chief Financial Officer "
+              name="Arjuna Hamonangan K.D.P."
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-4.webp"
-              job="Software Engineer"
-              name="Marvin McKinney"
+              imageSrc="/images/dwy.JPG"
+              job="Chief Marketing Officer"
+              name="Dwy Wahyuni Sukmawati"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-5.webp"
-              job="System Analyst"
-              name="Floyd Miles"
+              imageSrc="/images/niko.png"
+              job="Head Of Frontend Developer"
+              name="Nikolaus Evan Dewanto"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-6.webp"
-              job="Project Manager"
-              name="Annette Black"
+              imageSrc="/images/samuel.jpeg"
+              job="Head Of Backend Developer"
+              name="Samuel Arya Permana"
             />
           </div>
         </div>
