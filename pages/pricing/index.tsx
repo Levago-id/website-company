@@ -40,15 +40,15 @@ const Pricing = () => {
   ]
 
   return (
-    <PageTemplate>
+    <PageTemplate title="Harga - Levago">
       <section className="grid grid-cols-1 place-items-center">
         <div
           className="sm:w-10/12 md:8/12 lg:w-6/12 text-center"
           data-aos="zoom-in-up"
         >
           <PageSentence
-            badge="PRICING"
-            title="What do you need? Choose a service that can help you"
+            badge="Harga Layanan"
+            title="Berbagai layanan sesuai dengan kebutuhan anda"
           />
         </div>
       </section>
@@ -56,42 +56,73 @@ const Pricing = () => {
       <section className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
         <div data-aos="fade-up">
           <PricingCard
-            price="1200$"
-            title="Website Design"
+            price="85K/Bulan"
+            title="Website Landing Page"
             features={[
-              '10 design pages',
-              'Well-documented',
-              '4 revisions',
-              '$100/additional page',
+              'Server dan Domain',
+              'Template Website',
+              'Maintance & Bug Fixing 1 Tahun',
+              'Add Minor Feature 1 Tahun',
+              'Optimalisasi Mobile',
+              
             ]}
           />
         </div>
         <div data-aos="fade-up">
           <PricingCard
-            price="10000"
-            title="Website Application"
+            price="210K/Bulan"
+            title="Website Custom"
             features={[
-              'Web & Mobile',
-              'Well-documented',
-              '8 revisions',
-              '$1000/additional page',
+              'Server dan Domain',
+              'Design by Request',
+              'Maintance & Bug Fixing 1 Tahun',
+              'Add Minor Feature',
+              'Optimalisasi Mobile',
             ]}
           />
         </div>
         <div data-aos="fade-up">
-          <PricingCard
-            price="3000$"
-            title="Mobile App"
-            features={[
-              'Daily backup',
-              '3 hours of maintenance',
-              'Including fixing',
-              '$50/additional hour',
-            ]}
+        <PricingCard
+          price="Request"
+          title="Website Application"
+         features={[
+          'Server dan Domain',
+          'Garansi bug & Maintance',
+          'Garansi Design & Keamanan',
+         'Backup Database',
+          'Major Feature : Request '
+           ]}
           />
+        </div>
+        <div data-aos="fade-up">
+        <PricingCard
+                price="Request"
+                title="Mobile Application"
+                features={[
+                  'Deploy Appstore & Playstore',
+                  'Garansi bug & Maintance',
+                  'Garansi Design & Keamanan',
+                  'Backup Database',
+                  'Major Feature : Request '
+                ]}
+              />
+        </div>
+        <div data-aos="fade-up">
+        <PricingCard
+                price="Request"
+                title="Paket Multi Platform (Web & Mobile App)"
+                features={[
+                  'Server dan Domain',
+                  'Deploy Appstore & Playstore',
+                  'Garansi bug & Maintance',
+                  'Garansi Design & Keamanan',
+                  'Backup Database',
+                  'Major Feature : Request '
+                ]}
+              />
         </div>
       </section>
-      <section className="grid place-items-center gap-16">
+     {/*} <section className="grid place-items-center gap-16">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="FAQ"
@@ -113,9 +144,9 @@ const Pricing = () => {
           <div className="sm:hidden"></div>
           <div className="text-primary inline select-none">
             <Link href={'/quote'}>Do not hesitate to ask!</Link>
-          </div>
         </div>
-      </section>
+        </div>
+      </section>*/}
     </PageTemplate>
   )
 }

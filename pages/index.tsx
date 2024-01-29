@@ -12,7 +12,7 @@ import { FiGlobe, FiCode, FiTablet } from 'react-icons/fi'
 const Home = () => {
   return (
     <>
-      <PageTemplate title="Home - Levago">
+      <PageTemplate title="Levago Company Website">
         {/* Banner Section */}
         <section
           className="flex flex-col gap-10 items-center"
