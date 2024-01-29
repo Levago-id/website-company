@@ -144,14 +144,14 @@ const ServiceDetail = () => {
           })}
         </div>
       </section>
-      <section className="grid place-items-center gap-16">
+       {/*  <section className="grid place-items-center gap-16">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="FAQ"
             title="Frequently asked questions"
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-7">
+     <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-7">
           {faqs.map((faq) => {
             return (
               <div className="grid gap-2.5" key={randomString(64)} data-aos="fade-right">
@@ -162,13 +162,13 @@ const ServiceDetail = () => {
           })}
         </div>
         <div className="text-white text-base font-medium">
-          {`Didn't find an answer? `}
+          {`Ingin Bertanya lebih Lanjut? `}
           <div className="sm:hidden"></div>
           <div className="text-primary inline">
             <Link href={'/quote'}>Jangan ragu untuk bertanya!</Link>
           </div>
         </div>
-      </section>
+      </section>*/}
     </PageTemplate>
   )
 }
