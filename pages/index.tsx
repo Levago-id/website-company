@@ -5,8 +5,6 @@ import PageSentence from 'components/molecules/PageSentence'
 import PricingCard from 'components/molecules/Card/PricingCard'
 import ProjectCard from 'components/molecules/Card/ProjectCard'
 import SectionSentence from 'components/molecules/SectionSentence'
-import LogoList from 'components/organisms/LogoList'
-import TestimonialList from 'components/organisms/TestimonialList'
 import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
@@ -61,8 +59,6 @@ const Home = () => {
             />
           </div>
         </section>
-        {/* Logo List */}
-        <LogoList />
         {/* How We Work */}
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
           <aside className="w-full h-[400px] relative" data-aos="fade-right">
@@ -211,5 +207,4 @@ const Home = () => {
     </>
   )
 }
-
 export default Home
