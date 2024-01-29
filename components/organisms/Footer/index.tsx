@@ -2,11 +2,13 @@ import NavBrand from 'components/atoms/NavBrand';
 import NavLink from 'components/atoms/NavLink';
 import Text from 'components/atoms/Text';
 import React from 'react';
+import { FaInstagram, FaLinkedin, FaTiktok, FaTwitter } from 'react-icons/fa';
+
 
 const Footer = () => {
   return (
     <>
-      <footer className="mt-32 pb-16">
+      <footer className="mt-32 pb-16 h-full"> {/* Add the "h-full" class */}
         <div className="flex flex-col gap-8 lg:flex-row lg:gap-16 xl:gap-20">
           <div className="space-y-5">
             <NavBrand />
@@ -23,19 +25,18 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:gap-16 xl:gap-20">
             <div className="space-y-5">
-              <Text value="SERVICES" textStyle="FooterLinkGroupTitle" />
+              <Text value="SOCIAL MEDIA" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
                 <NavLink
-                  value="Website Design"
-                  href="/service/detail"
+                  value="Instagram"
+                  href="https://www.instagram.com/levago.id"
                 />
                 <NavLink
-                  value="Website Application"
-                  href="/service/detail"
+                  value="Linkedin"
+                  href="https://www.linkedin.com/company/levago-indonesia"
                 />
-                <NavLink value="Mobile Application" href="/service/detail" />
-                <NavLink value="Digital Marketing" href="/service/detail" />
-                <NavLink value="Harga" href="/pricing" />
+                <NavLink value="Tiktok" href="https://www.tiktok.com/@levagoindonesia" />
+                <NavLink value="Twitter" href="https://twitter.com/levago_id" />
               </div>
             </div>
             <div className="space-y-5">
@@ -44,7 +45,7 @@ const Footer = () => {
                 <NavLink value="Tentang Kami" href="/about" />
                 <NavLink value="Kontak" href="/contact" />
                 <NavLink value="Saran" href="/quote" />
-                <NavLink value="Privacy Policy" href="/privacy-policy" />
+                <NavLink value="Harga" href="/pricing" />
                 <NavLink value="Term of Service" href="/term-of-service" />
                 <NavLink value="Internship" href="/jobs" />
                 <NavLink value="Blog" href="/blog" />
