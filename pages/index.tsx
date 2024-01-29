@@ -91,7 +91,7 @@ const Home = () => {
               />
               <ButtonLink
                 value="Lihat Tim Kami"
-                href="/teams"
+                href="/team"
                 size="small"
                 color="white"
                 style="light"
