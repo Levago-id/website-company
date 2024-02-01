@@ -2,8 +2,6 @@ import NavBrand from 'components/atoms/NavBrand';
 import NavLink from 'components/atoms/NavLink';
 import Text from 'components/atoms/Text';
 import React from 'react';
-import { FaInstagram, FaLinkedin, FaTiktok, FaTwitter } from 'react-icons/fa';
-
 
 const Footer = () => {
   return (
@@ -48,7 +46,6 @@ const Footer = () => {
                 <NavLink value="Harga" href="/pricing" />
                 <NavLink value="Term of Service" href="/term-of-service" />
                 <NavLink value="Internship" href="/jobs" />
-                <NavLink value="Blog" href="/blog" />
               </div>
             </div>
             <div className="space-y-5">

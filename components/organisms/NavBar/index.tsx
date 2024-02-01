@@ -82,7 +82,7 @@ const NavBar = () => {
                   value="Cara Kerja"
                   canActive={true}
                 />
-                <NavLink href="/project" value="Project" canActive={true} />
+                {/*<NavLink href="/project" value="Project" canActive={true} />*/}
                 <NavLink href="/about" value="Tentang Kami" canActive={true} />
               </div>
               <div
