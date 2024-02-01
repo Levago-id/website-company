@@ -28,7 +28,7 @@ const ProjectCard = ({
             color="white"
             radius="pill"
             style="outline"
-            href="/project/detail"
+            href="/project/detai"
           />
         </div>
       </div>
