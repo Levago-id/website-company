@@ -40,16 +40,16 @@ const Project = () => {
           <div className="text-center md:text-left">
             <PageSentence
               badge="PROJECTS"
-              title="We have completed many amazing projects that you will not believe"
+              title="Kami telah menyelesaikan beberapa proyek"
             />
           </div>
         </aside>
         <aside className="w-full min-w-[175px] md:w-fit" data-aos="fade-left">
           <Select
             options={[
-              { label: 'App', value: 'app' },
-              { label: 'UI Design', value: 'ui-design' },
-              { label: 'Other', value: 'other' },
+              { label: 'Website', value: 'web' },
+              { label: 'Web App', value: 'webapp' },
+              { label: 'Mobile App', value: 'mobile' },
             ]}
           />
         </aside>
