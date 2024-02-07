@@ -111,7 +111,7 @@ const Home = () => {
           </aside>
         </section>
         <LineDivider />
-        {/* Our Projects */}
+        {/* Our Projects
         <section className="flex flex-col gap-16 items-center">
           <div
             className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
@@ -137,7 +137,7 @@ const Home = () => {
               />
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Prices */}
         <section className="flex flex-col gap-16 items-center">
           <div
