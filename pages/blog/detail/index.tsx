@@ -90,7 +90,7 @@ const BlogDetail = () => {
           data-aos="zoom-in-up"
         >
           <PageSentence
-            badge="BLOG DETAIL"
+            badge="Detail"
             title="10 Figma Plugins that will increase your productivity"
           />
           <Text textStyle="BlogMeta" value={'Mar 11 • 3 min read'} />
