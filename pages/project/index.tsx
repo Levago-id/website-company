@@ -14,7 +14,7 @@ const Project = () => {
   }
   const projectList: Project[] = [
     {
-      title: 'Niko',
+      title: 'The Mobile App Landing Page',
       description: 'A landing page for mobile app',
     },
     {
