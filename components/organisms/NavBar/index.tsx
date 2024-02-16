@@ -66,7 +66,7 @@ const NavBar = () => {
                   }`}
                   onClick={() => setIsOpen(!isOpen)}
                 >
-                  <div className={`text-sky-900 text-2xl`}>
+                  <div className={`text-white-500 text-2xl`}>
                     {isOpen ? <FiX /> : <FiMenu />}
                   </div>
                 </div>
@@ -77,12 +77,13 @@ const NavBar = () => {
                 }space-y-5 mt-4 lg:mt-0 lg:space-y-0 lg:space-x-16 lg:flex lg:place-items-center`}
               >
                 <NavLink href="/service" value="Layanan" canActive={true} />
+                <NavLink href="/project" value="Project" canActive={true} />
                 <NavLink
                   href="/how-we-work"
                   value="Cara Kerja"
                   canActive={true}
                 />
-                {/*<NavLink href="/project" value="Project" canActive={true} />*/}
+               
                 <NavLink href="/about" value="Tentang Kami" canActive={true} />
               </div>
               <div
