@@ -111,6 +111,33 @@ const Home = () => {
           </aside>
         </section>
         <LineDivider />
+        {/* Our Projects
+        <section className="flex flex-col gap-16 items-center">
+          <div
+            className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
+            data-aos="zoom-in-up"
+          >
+            <SectionSentence
+              title="Kami telah menyelesaikan banyak proyek luar biasa yang tidak akan Anda percayai"
+              badge="PROJECT"
+            />
+          </div>
+          <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5">
+            <div data-aos="flip-left">
+              <ProjectCard
+                title="The Desktop App Landing Page"
+                description="A landing page for desktop app"
+              />
+            </div>
+            <div data-aos="flip-right">
+              <ProjectCard
+                title="The Mobile App Landing Page"
+                description="A landing page for mobile app"
+                bottomSquareSize="big"
+              />
+            </div>
+          </div>
+        </section> */}
         {/* Prices */}
         <section className="flex flex-col gap-16 items-center">
           <div
