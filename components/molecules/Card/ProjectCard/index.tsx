@@ -1,16 +1,21 @@
-import Button from 'components/atoms/Button'
-import ButtonLink from 'components/atoms/Button/ButtonLink'
-import LazyCard, { LazyCardProps } from 'components/atoms/LazyCard'
-import Text from 'components/atoms/Text'
+// ProjectCard.tsx
+import React from 'react';
+import ButtonLink from 'components/atoms/Button/ButtonLink';
+import LazyCard, { LazyCardProps } from 'components/atoms/LazyCard';
+import Text from 'components/atoms/Text';
+
 interface ProjectCardProps extends LazyCardProps {
-  title: string
-  description: string
+  title: string;
+  description: string;
+  href: string;
 }
-const ProjectCard = ({
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   description,
   bottomSquareSize = 'small',
   height = 450,
+  href,
 }: ProjectCardProps) => {
   return (
     <div className="w-full">
@@ -28,12 +33,12 @@ const ProjectCard = ({
             color="white"
             radius="pill"
             style="outline"
-            href="/project/detai"
+            href={href}
           />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;

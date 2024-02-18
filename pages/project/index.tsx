@@ -11,25 +11,27 @@ const Project = () => {
   interface Project {
     title: string
     description: string
+    href: string
   }
+
   const projectList: Project[] = [
     {
-      title: 'The Mobile App Landing Page',
-      description: 'A landing page for mobile app',
+      title: 'MITGLOS Website Company',
+      description: 'Website',
+      href: 'https://mitglos.com/'
     },
     {
-      title: 'The Desktop App Landing Page',
-      description: 'A landing page for desktop app',
+      title: 'Website Rental Mobil',
+      description: 'Website Custom',
+      href: 'https://rentalsumbersmg.netlify.app/'
     },
     {
-      title: 'Simple Mobile Blog App',
-      description: 'A blog app on mobile platform',
-    },
-    {
-      title: 'Realtime Chat App UI Design',
-      description: 'A UI design for realtime chat app',
+      title: 'Absenin (Sistem Informasi & Mobile App)',
+      description: 'Coming Soon Our SAAS',
+      href: 'https://example.com'
     },
   ]
+
   return (
     <PageTemplate title="Project - Levago">
       <section className="flex flex-col items-center gap-5 md:flex-row md:justify-between">
@@ -63,6 +65,7 @@ const Project = () => {
                 <ProjectCard
                   title={project.title}
                   description={project.description}
+                  href={project.href}
                 />
               </div>
             )
