@@ -40,12 +40,12 @@ const Footer = () => {
             <div className="space-y-5">
               <Text value="COMPANY" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
+              <NavLink value="Gratis Buat Website" href="https://bit.ly/WebGratisBatch1" />
                 <NavLink value="Tentang Kami" href="/about" />
                 <NavLink value="Kontak" href="/contact" />
                 <NavLink value="Saran" href="/quote" />
                 <NavLink value="Harga" href="/pricing" />
                 <NavLink value="Term of Service" href="/term-of-service" />
-                <NavLink value="Internship" href="/jobs" />
               </div>
             </div>
             <div className="space-y-5">
