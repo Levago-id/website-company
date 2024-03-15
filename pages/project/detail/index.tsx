@@ -30,6 +30,11 @@ const Project = () => {
       description: 'Coming Soon Our SAAS',
       href: 'https://example.com' // Contoh tambahan dengan href yang berbeda
     },
+    {
+      title: 'Levapos (Levago Point Of Sale)',
+      description: 'Point of Sale Cashier Website',
+      href: 'https://levapos.000webhostapp.com/' // Contoh tambahan dengan href yang berbeda
+    }
   ]
 
   return (
