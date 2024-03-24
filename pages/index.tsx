@@ -61,14 +61,16 @@ const Home = () => {
         </section>
         {/* How We Work */}
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
-          <aside className="w-full h-[400px] relative" data-aos="fade-right">
-            <Image
-              src={'/images/how-we-work-illustration.svg'}
-              layout="fill"
-              objectFit="fill"
-              alt="Structured plan"
-            />
-          </aside>
+        <aside className="w-full h-[400px] relative" data-aos="fade-right">
+              <div className="relative w-full h-full">
+                <Image
+                  src={'/images/how-we-work-illustration.svg'}
+                  layout="fill"
+                  objectFit="fill"
+                  alt="Structured plan"
+                />
+              </div>
+            </aside>
           <aside
             className="text-center sm:w-10/12 lg:text-left lg:w-full"
             data-aos="fade-left"
